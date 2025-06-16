@@ -81,6 +81,12 @@ export default function TaskManager() {
           </div>
         </div>
 
+        {/* Test Message */}
+        <div className="bg-green-50 border border-green-200 rounded-xl p-6 mb-6">
+          <h2 className="text-lg font-semibold text-green-800">🎉 App is Working!</h2>
+          <p className="text-green-700">If you can see this, the deployment was successful.</p>
+        </div>
+
         {/* Urgent Alert */}
         {urgentTasks.length > 0 && (
           <div className="bg-red-50 border-2 border-red-200 rounded-xl p-6 mb-6 animate-pulse">
